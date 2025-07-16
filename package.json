@@ -6,7 +6,6 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "preinstall": "./preinstall.sh",
     "dev": "node --loader ts-node/esm src/index.ts",
     "build": "tsc && ncc build dist/index.js --minify && find dist/ -type f -not -name 'index.js' -delete",
     "lint": "biome lint"
