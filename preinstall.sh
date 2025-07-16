@@ -5,5 +5,5 @@ if [ "$CI" = "true" ]; then
   echo "CI is true, skipping pre-commit install."
 else
   # Install pre-commit hooks
-  pre-commit install
+  # pre-commit install
 fi
