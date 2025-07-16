@@ -7,7 +7,7 @@
   "type": "module",
   "scripts": {
     "dev": "node --loader ts-node/esm src/index.ts",
-    "build": "tsc && ncc build dist/index.js --minify && find dist/ -type f -not -name 'index.js' -delete",
+    "build": "tsc && ncc build dist/index.js -o api",
     "lint": "biome lint"
   },
   "dependencies": {
