@@ -6,6 +6,7 @@ import generateBarChart from './generateBarChart.js';
 import githubQuery from './githubQuery.js';
 import { createCommittedDateQuery, createContributedRepoQuery, userInfoQuery } from './queries.js';
 
+// update 0106
 /**
  * 환경변수 로드
  */
